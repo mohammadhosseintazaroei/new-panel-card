@@ -8,27 +8,34 @@ const styles = {
   },
   titleStyles: {
     fontSize: "14px",
-    color: "customPrimary.main",
+    color: "primary.main",
+    fontWeight: "600"
   },
 
   amountStyles: {
     fontSize: "24px",
-    color: "customPrimary.dark",
+    color: "primary.dark",
     fontWeight: 700,
-    marginLeft: "10px",
+    marginLeft: "4px",
+  },
+  amountTagStyles: {
+    fontSize: "12px",
+    color: "primary.dark",
+    fontWeight: 700,
+    marginLeft:"8px"
   },
   badgeStyle: {
     fontSize: "14px",
-    color: "customPrimary.main",
+    color: "primary.main",
   },
   actionStyle: {
     fontSize: "14px",
-    color: "customPrimary.main",
+    color: "primary.main",
   },
   descriptionStyles: {
     fontSize: "12px",
-    weight: "500",
-    color: "customPrimary.main",
+    fontWeight: "500",
+    color: "primary.main",
     marginTop: "23px",
   },
   cardContentStyles: {
@@ -36,6 +43,8 @@ const styles = {
   },
   buttonStyles: {
     fontSize: "12px",
+    color: "button.mainColor",
+    fontWeight:  "600"
   },
 };
 
